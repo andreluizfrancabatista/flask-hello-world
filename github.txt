@@ -1,0 +1,30 @@
+---------------------
+# Usar o git Bash
+
+git add .
+git commit -m "Comentário"
+git push origin main
+
+
+---------------------
+
+# Para atualizar o repositório local a partir do repositório remoto
+git reset --hard
+git pull
+
+OU
+
+git stash
+git stash drop
+git pull
+
+
+-------------------
+Para clonar um repositorio
+- Fazer o fork
+- git clone <link>
+
+
+-------------------
+Renomear a branch
+- git branch -m <novo nome>
